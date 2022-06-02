@@ -46,7 +46,7 @@ public class QuickSort {
             while(array[rightpointer] >= pivot && leftPointer < rightpointer) {
                 rightpointer--; //move rightPointer to left
             }
-            //if
+            //if lp item greater than pivot and rp less then pivot
             swap(array, leftPointer, rightpointer);
         }//while
 
