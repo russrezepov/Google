@@ -16,7 +16,7 @@ public class MergeSort {
         if(inputLength < 2) {
             return;
         }
-
+        //
         int midIndex = inputLength / 2;
         int[] leftHalf = new int[midIndex];
         int[] rightHalf = new int[inputLength - midIndex];
